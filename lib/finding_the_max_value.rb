@@ -1,7 +1,7 @@
 def find_max_value(array)
-  count = 1
+  count = 0
   max_value = nil
-  while count < array.length do
+  while count < array.length -1 do
     if(array[count] > array[count - 1])
       max_value = array[count]
     elsif
